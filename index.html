@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nantipat Sophakam | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">NS.</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="fade-in">นันทิพัฒน์ โสภาคำ</h1>
+                <h2 class="subtitle fade-in">Nantipat Sophakam</h2>
+                <div class="roles fade-in">
+                    <span class="role-badge">Programmer</span>
+                    <span class="role-badge">AI Engineer</span>
+                </div>
+                <p class="bio fade-in">
+                    A passionate developer focused on creating intelligent systems, efficient software, and elegant user interfaces.
+                </p>
+                <div class="social-links fade-in">
+                    <a href="https://github.com/NantipatSpk" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-image-container fade-in">
+                <!-- Profile Image -->
+                <div class="profile-frame">
+                    <img src="https://via.placeholder.com/300" alt="Nantipat Sophakam" id="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <h2 class="section-title">Education</h2>
+        <div class="timeline">
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>ชื่อมหาวิทยาลัย / สถาบัน</h3>
+                    <p class="timeline-date">20XX - 20XX</p>
+                    <p>ชื่อปริญญา - สาขาวิชา</p>
+                    <p class="timeline-desc">รายละเอียดเพิ่มเติม (ถ้ามี) เช่น เกรดเฉลี่ย, โปรเจกต์จบ</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section bg-alt">
+        <h2 class="section-title">Work Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>ชื่อตำแหน่งการทำงาน (เช่น Software Engineer)</h3>
+                    <p class="timeline-date">20XX - ปัจจุบัน | ชื่อบริษัท</p>
+                    <ul class="timeline-desc-list">
+                        <li>พัฒนาและบำรุงรักษาระบบ...</li>
+                        <li>ทำงานร่วมกับทีมในแบบ Agile...</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>ชื่อตำแหน่งการทำงานที่สอง</h3>
+                    <p class="timeline-date">20XX - 20XX | ชื่อบริษัท</p>
+                    <ul class="timeline-desc-list">
+                        <li>รับผิดชอบในส่วนของ...</li>
+                        <li>ใช้เทคโนโลยี...</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-container reveal">
+            <div class="skill-category">
+                <h3>Programming</h3>
+                <div class="skill-tags">
+                    <span>Python</span>
+                    <span>JavaScript</span>
+                    <span>HTML/CSS</span>
+                    <span>C++</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>AI & Machine Learning</h3>
+                <div class="skill-tags">
+                    <span>TensorFlow</span>
+                    <span>PyTorch</span>
+                    <span>Scikit-Learn</span>
+                    <span>Computer Vision</span>
+                    <span>NLP</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Tools & Others</h3>
+                <div class="skill-tags">
+                    <span>Git</span>
+                    <span>Docker</span>
+                    <span>SQL</span>
+                    <span>Linux</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section bg-alt">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+            
+            <!-- Project 1 -->
+            <div class="project-card reveal">
+                <div class="project-img-placeholder">
+                    <i class="fas fa-robot fa-3x"></i>
+                </div>
+                <div class="project-info">
+                    <h3>AI Object Detection System</h3>
+                    <p>ระบบตรวจจับวัตถุแบบ Real-time สร้างด้วย Python และ YOLOv8 สำหรับการวิเคราะห์ภาพ</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>YOLO</span>
+                        <span>OpenCV</span>
+                    </div>
+                    <a href="#" class="project-link"><i class="fab fa-github"></i> View Code</a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card reveal">
+                <div class="project-img-placeholder">
+                    <i class="fas fa-laptop-code fa-3x"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Web Application Platform</h3>
+                    <p>ระบบจัดการข้อมูลสำหรับองค์กรขนาดเล็ก มีหน้า Dashboard และ API เต็มรูปแบบ</p>
+                    <div class="project-tags">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <a href="#" class="project-link"><i class="fab fa-github"></i> View Code</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span id="year"></span> Nantipat Sophakam. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
